@@ -1,0 +1,335 @@
+
+html, body{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+div{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    /* min-height: 1080px; */
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    background-color: #007cff;
+    width: 100%;
+    min-width: 1920px;
+    min-height: 56px;
+    height: 6%;
+    display: flex;
+}
+.top img{
+    padding: 10px;
+    padding-left: 30px;
+}
+.top .solgen{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    margin-left: 30%;
+}
+.top .link{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: white;
+    margin: auto;
+    margin-left: 30%;
+    cursor: pointer;
+}
+.tips{
+    background-color: #e2e8e9;
+    height: 4%;
+    min-width: 1920px;
+    min-height: 37px;
+    text-align: center;
+    align-content: center;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.buiness{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+.buiness .buiness-title{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    min-width: 190px;
+}
+.buiness .buiness-title ul{
+    background-color: #1e1e1c;
+    width: 100%;
+    height: 100%;
+}
+.buiness .buiness-title .li{
+    display: flex;
+    background-color: #1e1e1c;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid #414141;
+}
+.buiness .buiness-title .li-ative{
+    display: flex;
+    background-color: #007cff;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.buiness .buiness-title .li .a{
+    color: #c1b06b;
+}
+.buiness .buiness-title .li-ative .a-ative{
+    color: white;
+}
+.buiness .fenlei{
+    background-color: #eeeeee;
+    width: 90%;
+    min-width: 1730px;
+    overflow-y: scroll;
+    /* border-left: 2px solid rgb(110, 110, 110); */
+}
+.buiness .fenlei .tel-box{
+    background-color: #fff;
+    display: flex;
+    height: 50px;
+    margin-left: 10px;
+    border-bottom: 2px solid #eeeeee;
+    align-items: center;
+}
+.buiness .fenlei .tel-box .title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 4px; 
+}
+.buiness .fenlei .tel-box .color-box{
+    width: 5px;
+    height: 100%;
+    background-color: #c1b06b;
+    margin-right: 30px;
+}
+
+.buiness .fenlei .paper-bigbox{
+    background-color:white; 
+    display: flex;
+    flex-direction: column;
+    margin-left:10px; 
+    padding-top:20px; 
+}
+
+.buiness .fenlei .name-box{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+
+.buiness .fenlei .name-box p{
+    background-color: #ececec;
+    width: 100px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buiness .fenlei .name-box div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid #eeeeee;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.buiness .fenlei .input-size{
+    display: flex;
+    margin-left: 200px;
+}
+.buiness .fenlei .name-box .input-dis{
+    width: 150px;
+    height: 35px;
+    padding-left: 10px;
+    margin-left: 20px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #eeeeee;
+}
+.buiness .fenlei .name-box .price{
+    color: red;
+    font-size: 30px;
+    width: 10%;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.buiness .fenlei .name-box button{
+    background-color: #1e1e1c;
+    color: #c1b06b;
+    width: 150px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.buiness .fenlei .name-box button:active{
+    background-color: #414141;
+    color: #c1b06b;
+    width: 150px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.buiness .fenlei .name-box .order-info{
+    color: #007cff;
+    width: 70%;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.buiness .fenlei .file-page{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; 
+}
+.buiness .fenlei .file-page .file-win{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #007cff;
+    width: 70%;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.buiness .fenlei .file-page .file-win:hover{
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #007cff;
+    width: 70%;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.buiness .fenlei .file-page .file-namebox{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 40px;
+    
+    /* flex-wrap: wrap; */
+}
+.buiness .fenlei .file-page .file-name{
+    font-size: 14px;
+}
+.buiness .fenlei .file-page .file-jindubox{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.buiness .fenlei .file-page .file-jindu{
+    background-color: #007cff;
+    width: 92%;
+    height: 5px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.buiness .fenlei .file-page .img-close{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.address-wrap{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    background:repeating-linear-gradient(-45deg, #ff6c6c 0, #ff6c6c 20%, transparent 0, transparent 25%, #1989fa 0,#1989fa 41%,transparent 0, transparent 50%);
+    background-size: 80px;
+}
+
+.buiness .fenlei .add-box{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.buiness .fenlei .add-box p{
+    background-color: #ececec;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buiness .fenlei .add-box .addinfo-box{
+    display: flex;
+    width: 70%;
+    margin-left: 20px;
+}
+.buiness .fenlei .addinfo-box .add-info{
+    color: #414141;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+.buiness .fenlei .addinfo-box .changeadd{
+    color: #414141;
+    margin-left: 10px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.buiness .fenlei textarea{
+    width: 70%;
+    height: 100px;
+    margin-left: 20px;
+    resize: none;
+}
+.buiness .fenlei textarea:focus{
+    width: 70%;
+    height: 100px;
+    margin-left: 20px;
+    outline-color:#007cff;
+    list-style: none;
+    resize: none;
+}
